@@ -1,0 +1,54 @@
+$background-color: #282c34;
+
+//dark colorscheme
+$d-primary-blue: hsl(215, 51%, 70%); // Soft blue
+$d-primary-cyan: hsl(178, 100%, 50%);
+
+$dn-blue-bg: hsl(217, 54%, 11%);
+$dn-blue-card-bg: hsl(216, 50%, 16%);
+$dn-blue-line: hsl(215, 32%, 27%);
+$dn-white: hsl(0, 0%, 100%);
+
+$font-paragraph: 18px;
+$font-family: Outfit;
+$font-weights: 300,400,600;
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  // background-color: #282c34;
+  background-color: $background-color;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
