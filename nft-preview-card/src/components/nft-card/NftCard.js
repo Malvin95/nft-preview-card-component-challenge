@@ -1,10 +1,15 @@
 import React from 'react';
-import Card from '@mui/material/Card';
+import './NftCard.scss';
+import div from '@mui/material/Card';
+import image from '../../assets/images/image-equilibrium.jpg';
 
 const NftCard = () => {
+
     return (
-        <Card>
-            <div>Card Image here</div>
+        <div className="main-card">
+            <div className="image-container">
+                <img className="image" src={image} alt="empty" />
+            </div>
             <div>NFT Name</div>
             <div>NFT description</div>
             <div>
@@ -16,7 +21,7 @@ const NftCard = () => {
                 <div>Avatar</div>
                 <div>nft owner</div>
             </div>
-        </Card>
+        </div>
     );
 }
 

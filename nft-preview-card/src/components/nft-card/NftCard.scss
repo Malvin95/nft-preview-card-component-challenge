@@ -1,0 +1,21 @@
+@use '../../App.scss';
+
+//TODO: Work out how to properly import variables from sass
+$dn-blue-card-bg: hsl(216, 50%, 16%);
+
+.main-card {
+    width: 350px;
+    border-radius: 10px;
+    background-color: $dn-blue-card-bg;
+}
+
+.image-container {
+    display: flex;
+}
+
+.image {
+    display: flex;
+    margin: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
